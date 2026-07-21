@@ -17,9 +17,13 @@ const Formulario = (props) => {
         props.aoColaboradorCadastrado({
             nome,
             cargo, 
-            iamgem,
+            imagem,
             time
         })
+        setNome('')
+        setCargo('')
+        setImagem('')
+        setTime('')
     }
 
 
